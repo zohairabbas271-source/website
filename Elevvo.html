@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://elevvo.tech/home -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Pro";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Pro";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-regular: normal 400 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-light: normal 300 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-duotone-thin: normal 100 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-thin: normal 100 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-duotone-solid: normal 900 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-regular: normal 400 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-light: normal 300 1em/1 "Font Awesome 6 Sharp Duotone";
+  --fa-font-sharp-duotone-thin: normal 100 1em/1 "Font Awesome 6 Sharp Duotone";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-counter-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  transform: scale(var(--fa-layers-scale, 0.25));
+  transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(-1 * var(--fa-li-width, 2em));
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  animation-name: fa-beat;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  animation-name: fa-bounce;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  animation-name: fa-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  animation-name: fa-beat-fade;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  animation-name: fa-flip;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  animation-name: fa-shake;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  animation-name: fa-spin;
+  animation-delay: var(--fa-animation-delay, 0s);
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 2s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  animation-name: fa-spin;
+  animation-direction: var(--fa-animation-direction, normal);
+  animation-duration: var(--fa-animation-duration, 1s);
+  animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    animation-delay: -1ms;
+    animation-duration: 1ms;
+    animation-iteration-count: 1;
+    transition-delay: 0s;
+    transition-duration: 0s;
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-shake {
+  0% {
+    transform: rotate(-15deg);
+  }
+  4% {
+    transform: rotate(15deg);
+  }
+  8%, 24% {
+    transform: rotate(-18deg);
+  }
+  12%, 28% {
+    transform: rotate(18deg);
+  }
+  16% {
+    transform: rotate(-22deg);
+  }
+  20% {
+    transform: rotate(22deg);
+  }
+  32% {
+    transform: rotate(-12deg);
+  }
+  36% {
+    transform: rotate(12deg);
+  }
+  40%, 100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  transform: rotate(var(--fa-rotate-angle, 0));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}</style><link rel="icon" type="image/svg+xml" href="https://elevvo.tech/assets/logo_favicon-C2u7wc10.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Elevvo">
+    <meta property="og:description" content="Elevvo empowers individuals through practical internship programs and supports businesses with tailored, results-driven solutions.">
+    <meta property="og:url" content="https://www.elevvo.tech">
+    <meta property="og:image" content="https://www.elevvo.tech/elevvo_og.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <!-- SEO Metadata -->
+    <meta name="description" content="Our mission is to empower future talent through practical, project-based learning. Through our virtual skills development platform, we provide aspiring tech learners with hands-on experience, mentorship, and tools to build real-world skills, achieve their goals, and unlock career opportunities.\n
+    Elevvo&#39;s culture is driven by inclusivity, growth, and impact. We foster a supportive, flexible environment where learners from all backgrounds can gain confidence, apply knowledge, and take meaningful steps toward their future.">
+    <meta name="keywords" content="Internships, Hiring, Tech, Engineering, Computer Systems Engineering, Computer Science, Software Engineer, Web Developer, Web Application Developer, Data analytics, Machine Learning, Natural Language Processing, Graphic Design, UI/UX Design">
+
+    <title>Elevvo</title>
+
+    <!-- Google Fonts (Roboto) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Elevvo_files/css2" rel="stylesheet">
+    <script type="module" crossorigin="" src="./Elevvo_files/index-DnV89pWa.js.download"></script>
+    <link rel="stylesheet" crossorigin="" href="./Elevvo_files/index-Bb6ZQA-1.css">
+  </head>
+  <body>
+    <div id="root"><div class="relative w-full h-fit overflow-x-hidden"><div class="w-full h-fit text-primary-darkblue"><div class="flex justify-center items-center bg-primary-yellow text-primary-darkblue py-3"><p class="w-[97%] text-center"><span class="font-[600]">Ready to accelerate your career ?</span>&nbsp;<span class="font-[300]">Get the skills with Elevvo Internships</span></p><button class="w-4 mr-4 cursor-pointer select-none"><img alt="CloseIcon" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27%23292727%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M20.7457%203.32851C20.3552%202.93798%2019.722%202.93798%2019.3315%203.32851L12.0371%2010.6229L4.74275%203.32851C4.35223%202.93798%203.71906%202.93798%203.32854%203.32851C2.93801%203.71903%202.93801%204.3522%203.32854%204.74272L10.6229%2012.0371L3.32856%2019.3314C2.93803%2019.722%202.93803%2020.3551%203.32856%2020.7457C3.71908%2021.1362%204.35225%2021.1362%204.74277%2020.7457L12.0371%2013.4513L19.3315%2020.7457C19.722%2021.1362%2020.3552%2021.1362%2020.7457%2020.7457C21.1362%2020.3551%2021.1362%2019.722%2020.7457%2019.3315L13.4513%2012.0371L20.7457%204.74272C21.1362%204.3522%2021.1362%203.71903%2020.7457%203.32851Z%27%20fill=%27%230F0F0F%27/%3e%3c/svg%3e"></button></div><nav class="relative flex flex-row py-3 md:py-2 justify-between items-center fixed section-px top-0 left-0 bg-white text-primary-darkblue z-50 shadow-lg shadow-stone-100"><div class="logo"><a href="https://elevvo.tech/home"><img alt="Elevvo" class="w-30 md:w-40" src="./Elevvo_files/nav_logo-5vkEKoZL.svg"></a></div><button class="navbar-btn hidden max-md:flex cursor-pointer select-none"><img class="w-7" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20xmlns=%27http://www.w3.org/2000/svg%27%20fill=%27%23292727%27%3e%3cpath%20stroke=%27%23000000%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27%20stroke-width=%272%27%20d=%27M4%206H20M4%2012H20M4%2018H20%27/%3e%3c/svg%3e"></button><div class="navbar-wrapper flex items-start gap-5 text-md font-medium bg-transparent max-md:text-md min-md:text-md max-md:absolute max-md:right-4 max-md:left-4 max-md:top-19 max-md:flex-col md:items-center max-md:rounded-lg max-md:bg-primary-yellow max-md:shadow-md max-md:p-7 duration-700 ease-in-out max-md:hidden text-md z-30"><a aria-current="page" class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out  active" href="https://elevvo.tech/home" data-discover="true">Home</a><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out " href="https://elevvo.tech/about-us" data-discover="true">About Us</a><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out " href="https://elevvo.tech/business" data-discover="true">For Business</a><div id="intern-link" class="group h-full relative"><button class="flex flex-row gap-1 items-cente text-md py-0 md:py-7 opacity-50 group-hover:opacity-100 transition-opacity duration-300 ease-in-out cursor-pointer">Internships<span class="text-sm"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"></path></svg></span></button><ul class="absolute flex flex-col w-64 py-5 px-6 left-0 top-10 sm:top-18 bg-primary-yellow opacity-0 invisible group-hover:visible group-hover:opacity-100 rounded-md border-1 border-secondry-brown shadow-2xl trainsition-all duration-300 ease-in-out z-90"><li><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out block border-b-1 border-secondry-brown py-2" href="https://elevvo.tech/intern/nlp" data-discover="true">Natural Languague Processing Internship</a></li><li><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out block border-b-1 border-secondry-brown py-2" href="https://elevvo.tech/intern/ml" data-discover="true">Machine Learning Internship</a></li><li><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out block border-b-1 border-secondry-brown py-2" href="https://elevvo.tech/intern/dataanalysis" data-discover="true">Data Analysis Internship</a></li><li><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out block border-b-1 border-secondry-brown py-2" href="https://elevvo.tech/intern/web" data-discover="true">Web Development Internship</a></li><li><a class="text-primary-darkblue opacity-50 hover:opacity-100 transition-opacity duration-300 ease-in-out block border-b-1 border-secondry-brown py-2" href="https://elevvo.tech/intern/uiux" data-discover="true">UI/UX Design Internship</a></li></ul></div><a class="opacity-100 px-0 md:px-7 py-1.5 rounded-full text-md text-white bg-primary-yellow transition-all duration-300 ease-in-out hover:bg-transparent border-2 border-primary-yellow hover:text-primary-yellow max-md:hover:text-black" href="https://elevvo.tech/apply" data-discover="true">Apply Now</a></div></nav><main><section id="home-hero-section" class="relative py-14 section-px text-primary-darkblue h-auto bg-cover grid grid-rows-1 gap-y-16 md:grid-cols-2 md:gap-y-7 lg:grid-rows-1 lg:grid-cols-2"><div class="hero-img w-fit hidden md:block md:w-120 lg:w-[40rem] z-2"><img loading="lazy" alt="" src="./Elevvo_files/hero_img-BvGJjPki.webp"></div><h1 class="w-fit h-fit text-[45px] font-[900] leading-[1.1] mx-auto md:text-5xl md:mt-2 md:ml-0 md:mr-auto lg:text-7xl lg:mt-5 lg:mr-auto lg:-ml-[30%]"><span class="relative z-20">Building</span>&nbsp;<span class="relative inline-block w-fit h-fit"><span class="absolute h-[40%] top-[55%] -left-[1.5%] -right-[1.5%] bg-primary-yellow z-10"></span><span class="relative z-20 font-[900]">Talent</span></span>&nbsp;<span class="relative z-20"><br> Solving</span>&nbsp;<span class="relative inline-block w-fit h-fit"><span class="absolute h-[40%] top-[55%] -left-[1.5%] -right-[1.5%] bg-primary-yellow z-10"></span><span class="relative z-20 font-[900]">Business</span></span><br><span class="relative inline-block w-fit h-fit"><span class="absolute h-[40%] top-[55%] -left-[1.5%] -right-[1.5%] bg-primary-yellow z-10"></span><span class="relative z-20 font-[900]">Problems</span></span></h1><div class="w-[100%] h-fit grid grid-rows-3 gap-7 md:w-full md:row-start-2 md:col-span-2 md:grid-rows-1 md:grid-cols-3 md:gap-6 md:justify-center lg:w-[40%] lg:h-75 lg:absolute lg:right-14 lg:bottom-12 lg:grid-cols-2 lg:items-end"><div class="score-card lg:row-start-2 w-[100%] h-34 flex flex-col gap-3 items-center text-center bg-white rounded-2xl py-5 md:w-full  z-30 opacity-100 border border-secondry-gray-2"><span class="text-primary-blue font-[800] text-6xl tracking-tighter md:text-[48px]">11 +</span><span class="text-primary-darkblue text-md md:text-sm lg:text-lg "><span>Countries</span><span class="font-regular"></span></span></div><div class="score-card lg:col-start-2 w-[100%] h-34 flex flex-col gap-3 items-center text-center bg-white rounded-2xl py-5 md:w-full  z-30 opacity-100 border border-secondry-gray-2"><span class="text-primary-blue font-[800] text-6xl tracking-tighter md:text-[48px]">40 +</span><span class="text-primary-darkblue text-md md:text-sm lg:text-lg "><span>Educational Documents</span><span class="font-regular"></span></span></div><div class="score-card  w-[100%] h-34 flex flex-col gap-3 items-center text-center bg-primary-blue rounded-2xl py-5 md:w-full  z-30 opacity-100 border border-secondry-gray-2"><span class="text-white font-[800] text-6xl tracking-tighter md:text-[48px]"><div class="text-[40px]"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="star" class="svg-inline--fa fa-star text-primary-yellow" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"></path></svg><span class="ml-3">4.7</span></div></span><span class="text-white text-md md:text-sm lg:text-lg leading-6"><span><span>Trusted by more than <br><b>10,000 learners</b></span></span><span class="font-regular"></span></span></div></div></section><section class="about section-py section-px flex flex-col min-md:flex-row min-md:justify-between gap-12 justify-between items-center"><div class="about-content lg:basis-6/12 md:basis-7/12 sm:basis-full"><h1 class="leading-[1.2] font-[900] mb-3 text-3xl min-lg:text-5xl">Guided Internships. Solving Real Business Needs.</h1><p class="leading-[1.7]"><span class="relative"><span class="absolute h-[40%] top-[55%] -left-[1.5%] -right-[1.5%] bg-primary-yellow z-10"></span><span class="relative z-20 font-[900]">Elevvo offers hands-on internship programs</span></span>&nbsp; that provide participants at all skill levels with real-world experience, structured training, mentorship, and practical skills to support their career growth,&nbsp;<span class="relative z-20 font-[900]">while delivering high-impact solutions for businesses.</span></p></div><div class="about-img lg:basis-6/12 md:basis-5/12 sm:basis-full"><img loading="lazy" alt="Working Enviroment" src="./Elevvo_files/about_img-BHt2t1EC.webp"></div></section><section class="careers w-full flex flex-col gap-7 section-py section-px justify-between items-start bg-secondry-gray-1"><div class="careers-content"><h1 class="leading-[1.2] font-[900] mb-3 text-5xl capitalize">Want to go further in your career journey ?</h1><p class="leading-[1.7] text-xl text-secondry-gray-4">Join a learning experience built for real-world growth—complete with expert-led training, hands-on projects, and guidance to help you gain the skills that employers value most.</p></div><div class="flex flex-col gap-6"><div class="p-4 border-l-5 border-blue-400 bg-blue-100"><p class="leading-[1.7] text-xl text-primary-blue">Avarage salaries are estimated based on Glassdoor salary data and local job boards (Wuzzuf, LinkedIn) as of 2025.</p></div><div class="careers-container w-full grid max-sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"><a class="career-card bg-white text-primary-darkblue p-7 rounded-lg shadow-lg border border-stone-200 hover:border-primary-blue transition-border duration-300 ease-in-out cursor-pointer" href="https://elevvo.tech/intern/nlp" data-discover="true"><div class="w-fit mx-auto md:m-0 flex flex-col gap-5"><div><img src="./Elevvo_files/nlp_img-Bc-kAzb1.png"></div><div class="flex flex-col gap-2"><h3 class="font-bold">Natural Language Processing Engineer</h3><p class="text-sm">EGP 240,000 – 312,000 average salary / year (Glassdoor)</p><div class="flex flex-row flex-wrap gap-2 text-sm"><div class="w-fit py-1 px-5 rounded-sm font-medium bg-purple-100 text-purple-500">Trending</div><div class="w-fit py-1 px-5 rounded-sm font-medium bg-orange-100 text-primary-yellow">Remote</div><div class="w-fit py-1 px-5 rounded-sm font-medium bg-orange-100 text-primary-yellow">Flexible Hours</div></div></div></div></a><a class="career-card bg-white text-primary-darkblue p-7 rounded-lg shadow-lg border border-stone-200 hover:border-primary-blue transition-border duration-300 ease-in-out cursor-pointer" href="https://elevvo.tech/intern/ml" data-discover="true"><div class="w-fit mx-auto md:m-0 flex flex-col gap-5"><div><img src="./Elevvo_files/ml_img-CKes-4lS.webp"></div><div class="flex flex-col gap-2"><h3 class="font-bold">Machine Learning Engineer</h3><p class="text-sm">EGP 216,000 – 300,000 average salary / year (Glassdoor)</p><div class="flex flex-row flex-wrap gap-2 text-sm"><div class="w-fit py-1 px-5 rounded-sm font-medium bg-purple-100 text-purple-500">Trending</div><div class="w-fit py-1 px-5 rounded-sm font-medium bg-orange-100 text-primary-yellow">Remote</div><div class="w-fit py-1 px-5 rounded-sm font-medium bg-orange-100 text-primary-yellow">Flexible Hours</div></div></div></div></a><a class="career-card bg-white text-primary-darkblue p-7 rounded-lg shadow-lg border border-stone-200 hover:border-primary-blue transition-border duration-300 ease-in-out cursor-pointer" href="https://elevvo.tech/intern/web" data-discover="true"><div class="w-fit mx-auto md:m-0 flex flex-col gap-5"><div><img src="./Elevvo_files/web_img-BQXNbLhY.webp"></div><div class="flex flex-col gap-2"><h3 class="font-bold">Front-End Web Developer</h3><p class="text-sm">EGP 144,000 – 180,000 average salary / year (Glassdoor)</p><div class="flex flex-row flex-wrap gap-2 text-sm"><div class="w-fit py-1 px-5 rounded-sm font-medium bg-orange-100 text-primary-yellow">Remote</div><div class="w-fit py-1 px-5 rounded-sm font-medium bg-orange-100 text-primary-yellow">Flexible Hours</div><div class="w-fit py-1 px-5 rounded-sm font-medium bg-[#BDD8FF] text-primary-blue">Tech</div></div></div></div></a></div></div><button class="mt-5 mx-auto md:mt-0 w-full md:w-fit text-center py-1 px-7 text-lg font-regular rounded-md border-2 border-primary-blue text-primary-blue hover:bg-primary-blue hover:text-white hover:border-transparent transition-all duration-300 ease-in-out cursor-pointer">Show All Careers</button></section><section class="offers-section flex flex-col gap-12 section-px section-py bg-white rounded-4xl"><div class="basis-6/12"><div class="flex flex-col gap-5"><h1 class="text-3xl text-secondry-gray-4 font-[500]">What We Offer ?</h1><h2 class="text-6xl text-primary-darkblue font-[900]">Building skills. Solving challenges</h2></div></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-5"><div class="offers-container flex flex-col gap-7 rounded-xl "><h1 class="text-2xl font-[600] text-center rounded-lg bg-primary-blue text-white py-4">For Interns</h1><div class="offers basis-12/12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5"><div class="offer-card relative overflow-hidden flex flex-col gap-4 p-7 border border-primary-blue rounded-xl undefined"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><div><img loading="lazy" alt="Materials" src="data:image/svg+xml,%3csvg%20width=&#39;45&#39;%20height=&#39;45&#39;%20viewBox=&#39;0%200%2045%2045&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cpath%20d=&#39;M15.5439%208.83691H15.9336C17.9347%208.83691%2019.0506%209.13828%2020.3965%2010.5195L30.1543%2020.4541C31.5711%2021.9063%2031.8369%2022.8984%2031.8369%2025.165V33.3115H31.8408V36.1631H31.8369V39.4395C31.8368%2043.1405%2030.1013%2045%2026.4355%2045H9.23926C5.59152%2044.9998%203.75008%2043.1581%203.75%2039.4395V14.3975C3.75015%2010.6966%205.59158%208.83707%209.23926%208.83691H12.6934V8.83398H15.5439V8.83691ZM9.39941%2011.6885C7.55763%2011.6885%206.60059%2012.6981%206.60059%2014.4336V39.3857C6.60059%2041.1567%207.55773%2042.1484%209.38184%2042.1484H26.1875C28.0293%2042.1484%2028.9863%2041.1567%2028.9863%2039.3857V25.2891H18.874C16.6781%2025.2891%2015.544%2024.1913%2015.5439%2021.96V11.6885H9.39941ZM25.4268%200C27.3214%207.33219e-05%2028.7914%200.460288%2030.0664%201.75293L39.0098%2010.8555C40.338%2012.2191%2040.7627%2013.601%2040.7627%2015.7793V30.6025C40.7625%2034.3036%2038.9382%2036.1631%2035.29%2036.1631H32.9951V33.3115H35.1309C36.9727%2033.3115%2037.9121%2032.3197%2037.9121%2030.5664V15.1416H28.8262C26.8075%2015.1415%2025.7979%2014.1497%2025.7979%2012.1133V2.85156H18.3252C16.5011%202.85156%2015.5439%203.86113%2015.5439%205.59668V7.875H12.6934V5.56055C12.6934%201.85962%2014.5348%200.000155019%2018.1826%200H25.4268ZM18.2188%2021.6406C18.2188%2022.3312%2018.5018%2022.6152%2019.21%2022.6152H28.4365L18.2188%2012.2373V21.6406ZM28.3662%2011.6885C28.3662%2012.3082%2028.6144%2012.5742%2029.252%2012.5742H37.3623L28.3662%203.41797V11.6885Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3c/svg%3e"></div><div class="offer-content flex flex-col gap-2"><h3 class="text-2xl font-bold">Materials</h3><p class="text-secondry-gray-4">Get curated guides, tools, and resources designed to help you build real skills with confidence.</p></div></div><div class="offer-card relative overflow-hidden flex flex-col gap-4 p-7 border border-primary-blue rounded-xl undefined"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><div><img loading="lazy" alt="Hands-on Training" src="data:image/svg+xml,%3csvg%20width=&#39;45&#39;%20height=&#39;45&#39;%20viewBox=&#39;0%200%2045%2045&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cpath%20d=&#39;M6.92558%208.44106C6.17967%207.72277%204.9927%207.74518%204.2744%208.49109C3.55611%209.237%203.57852%2010.424%204.32443%2011.1423L6.92558%208.44106ZM9.08653%2013.125L7.78596%2014.4756C8.51205%2015.1748%209.66104%2015.1748%2010.3871%2014.4756L9.08653%2013.125ZM18.1756%206.9756C18.9216%206.25731%2018.9439%205.07034%2018.2256%204.32443C17.5073%203.57851%2016.3203%203.55611%2015.5744%204.2744L18.1756%206.9756ZM24.375%205.625C23.3394%205.625%2022.5%206.46448%2022.5%207.5C22.5%208.53553%2023.3394%209.375%2024.375%209.375V5.625ZM37.5%2030C37.5%2031.0356%2038.3394%2031.875%2039.375%2031.875C40.4106%2031.875%2041.25%2031.0356%2041.25%2030H37.5ZM3.75%2030C3.75%2031.0356%204.58948%2031.875%205.625%2031.875C6.66053%2031.875%207.5%2031.0356%207.5%2030H3.75ZM7.5%2020.625C7.5%2019.5894%206.66053%2018.75%205.625%2018.75C4.58948%2018.75%203.75%2019.5894%203.75%2020.625H7.5ZM3.75%2030V28.125C2.71448%2028.125%201.875%2028.9644%201.875%2030H3.75ZM41.25%2030H43.125C43.125%2028.9644%2042.2856%2028.125%2041.25%2028.125V30ZM4.32443%2011.1423L7.78596%2014.4756L10.3871%2011.7744L6.92558%208.44106L4.32443%2011.1423ZM10.3871%2014.4756L18.1756%206.9756L15.5744%204.2744L7.78596%2011.7744L10.3871%2014.4756ZM24.375%209.375H33.375V5.625H24.375V9.375ZM37.5%2013.5V30H41.25V13.5H37.5ZM33.375%209.375C34.4561%209.375%2035.154%209.37646%2035.6854%209.41987C36.1946%209.46148%2036.3834%209.53213%2036.4763%209.57936L38.1788%206.23809C37.4693%205.87661%2036.732%205.74288%2035.9906%205.68232C35.2714%205.62354%2034.3943%205.625%2033.375%205.625V9.375ZM41.25%2013.5C41.25%2012.4808%2041.2515%2011.6037%2041.1926%2010.8843C41.1321%2010.1431%2040.9984%209.40577%2040.6369%208.69631L37.2956%2010.3988C37.3429%2010.4915%2037.4136%2010.6803%2037.4552%2011.1897C37.4985%2011.7209%2037.5%2012.419%2037.5%2013.5H41.25ZM36.4763%209.57936C36.8291%209.75913%2037.1158%2010.046%2037.2956%2010.3988L40.6369%208.69631C40.0976%207.63789%2039.2372%206.77738%2038.1788%206.23809L36.4763%209.57936ZM7.5%2030V20.625H3.75V30H7.5ZM3.75%2031.875H41.25V28.125H3.75V31.875ZM39.375%2030V31.5H43.125V30H39.375ZM35.25%2035.625H9.75V39.375H35.25V35.625ZM5.625%2031.5V30H1.875V31.5H5.625ZM9.75%2035.625C8.66897%2035.625%207.97095%2035.6235%207.4397%2035.5802C6.93032%2035.5386%206.74147%2035.4679%206.64877%2035.4206L4.94631%2038.7619C5.65577%2039.1234%206.39306%2039.2571%207.13432%2039.3176C7.8537%2039.3765%208.73085%2039.375%209.75%2039.375V35.625ZM1.875%2031.5C1.875%2032.5192%201.87354%2033.3964%201.93232%2034.1156C1.99288%2034.857%202.12661%2035.5942%202.48809%2036.3037L5.82936%2034.6013C5.78213%2034.5084%205.71148%2034.3196%205.66987%2033.8104C5.62647%2033.279%205.625%2032.5811%205.625%2031.5H1.875ZM6.64877%2035.4206C6.29597%2035.2408%206.00913%2034.9541%205.82936%2034.6013L2.48809%2036.3037C3.02738%2037.3622%203.88789%2038.2226%204.94631%2038.7619L6.64877%2035.4206ZM39.375%2031.5C39.375%2032.5811%2039.3735%2033.279%2039.3302%2033.8104C39.2886%2034.3196%2039.2179%2034.5084%2039.1706%2034.6013L42.5119%2036.3037C42.8734%2035.5942%2043.0071%2034.857%2043.0676%2034.1156C43.1265%2033.3964%2043.125%2032.5192%2043.125%2031.5H39.375ZM35.25%2039.375C36.2693%2039.375%2037.1464%2039.3765%2037.8656%2039.3176C38.607%2039.2571%2039.3443%2039.1234%2040.0538%2038.7619L38.3513%2035.4206C38.2584%2035.4679%2038.0696%2035.5386%2037.5604%2035.5802C37.029%2035.6235%2036.3311%2035.625%2035.25%2035.625V39.375ZM39.1706%2034.6013C38.9908%2034.9541%2038.7041%2035.2408%2038.3513%2035.4206L40.0538%2038.7619C41.1122%2038.2226%2041.9726%2037.3622%2042.5119%2036.3037L39.1706%2034.6013Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3c/svg%3e"></div><div class="offer-content flex flex-col gap-2"><h3 class="text-2xl font-bold">Hands-on Training</h3><p class="text-secondry-gray-4">Learn by doing: apply your knowledge through practical, project-based exercises that reflect real work.</p></div></div><div class="offer-card relative overflow-hidden flex flex-col gap-4 p-7 border border-primary-blue rounded-xl undefined"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><div><img loading="lazy" alt="Feedback" src="data:image/svg+xml,%3csvg%20width=&#39;45&#39;%20height=&#39;45&#39;%20viewBox=&#39;0%200%2045%2045&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cpath%20d=&#39;M30%201.875C33.1067%201.875%2035.625%204.39341%2035.625%207.5C35.625%208.53552%2034.7856%209.375%2033.75%209.375C32.7144%209.375%2031.875%208.53552%2031.875%207.5C31.875%206.46448%2031.0356%205.625%2030%205.625H7.5C6.46448%205.625%205.625%206.46448%205.625%207.5V37.5C5.625%2038.5356%206.46448%2039.375%207.5%2039.375H30C31.0356%2039.375%2031.875%2038.5356%2031.875%2037.5V35.625C31.875%2034.5894%2032.7144%2033.75%2033.75%2033.75C34.7856%2033.75%2035.625%2034.5894%2035.625%2035.625V37.5C35.625%2040.6067%2033.1067%2043.125%2030%2043.125H7.5C4.39341%2043.125%201.875%2040.6067%201.875%2037.5V7.5C1.875%204.39341%204.39341%201.875%207.5%201.875H30Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3cpath%20fill-rule=&#39;evenodd&#39;%20clip-rule=&#39;evenodd&#39;%20d=&#39;M38.9985%2015.3767C38.4363%2014.8145%2037.5249%2014.8145%2036.9626%2015.3767L22.3438%2029.9958C22.0674%2030.272%2021.8842%2030.6278%2021.8201%2031.0133L21.5117%2032.8636L23.3619%2032.5551C23.7474%2032.491%2024.1033%2032.3078%2024.3795%2032.0316L38.9985%2017.4126C39.5608%2016.8504%2039.5608%2015.9389%2038.9985%2015.3767ZM34.311%2012.7251C36.3377%2010.6984%2039.6236%2010.6984%2041.6503%2012.7251C43.6768%2014.7517%2043.6768%2018.0376%2041.6503%2020.0643L27.0313%2034.6833C26.2022%2035.5122%2025.1349%2036.0614%2023.9784%2036.2541L22.1282%2036.5626C19.5902%2036.9856%2017.3897%2034.7853%2017.8127%2032.2471L18.1211%2030.3968C18.3138%2029.2403%2018.863%2028.1731%2019.692%2027.344L34.311%2012.7251Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3cpath%20d=&#39;M9.375%2013.125C9.375%2012.0895%2010.2145%2011.25%2011.25%2011.25H26.25C27.2856%2011.25%2028.125%2012.0895%2028.125%2013.125C28.125%2014.1605%2027.2856%2015%2026.25%2015H11.25C10.2145%2015%209.375%2014.1605%209.375%2013.125Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3cpath%20d=&#39;M9.375%2020.625C9.375%2019.5894%2010.2145%2018.75%2011.25%2018.75H18.75C19.7856%2018.75%2020.625%2019.5894%2020.625%2020.625C20.625%2021.6606%2019.7856%2022.5%2018.75%2022.5H11.25C10.2145%2022.5%209.375%2021.6606%209.375%2020.625Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3cpath%20d=&#39;M9.375%2028.125C9.375%2027.0894%2010.2145%2026.25%2011.25%2026.25H13.125C14.1605%2026.25%2015%2027.0894%2015%2028.125C15%2029.1606%2014.1605%2030%2013.125%2030H11.25C10.2145%2030%209.375%2029.1606%209.375%2028.125Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3c/svg%3e"></div><div class="offer-content flex flex-col gap-2"><h3 class="text-2xl font-bold">Feedback</h3><p class="text-secondry-gray-4">Receive constructive insights to refine your work and accelerate your growth at every stage.</p></div></div><div class="offer-card relative overflow-hidden flex flex-col gap-4 p-7 border border-primary-blue rounded-xl undefined"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><div><img loading="lazy" alt="Certificate" src="data:image/svg+xml,%3csvg%20width=&#39;50&#39;%20height=&#39;50&#39;%20viewBox=&#39;0%200%2050%2050&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cpath%20d=&#39;M35.2287%2020.8334C39.8318%2020.8334%2043.5634%2024.5649%2043.5634%2029.168C43.5634%2031.2828%2042.7758%2033.2135%2041.478%2034.683L41.4778%2044.2681C41.4778%2045.4573%2040.2184%2046.1837%2039.2068%2045.6617L39.0204%2045.549L35.228%2042.8984L31.437%2045.549C30.4623%2046.2301%2029.1455%2045.6137%2028.994%2044.4855L28.9796%2044.2681L28.9776%2034.6809C27.6809%2033.2117%2026.894%2031.2817%2026.894%2029.168C26.894%2024.5649%2030.6256%2020.8334%2035.2287%2020.8334ZM38.3511%2036.8981C37.3867%2037.288%2036.3328%2037.5027%2035.2287%2037.5027C34.1231%2037.5027%2033.0677%2037.2874%2032.1022%2036.8965L32.103%2041.2692L34.3338%2039.7127C34.8041%2039.3841%2035.4102%2039.3431%2035.9145%2039.5895L36.1236%2039.7127L38.3509%2041.2692L38.3511%2036.8981ZM37.8315%206.25879C40.8785%206.25879%2043.3699%208.63734%2043.5503%2011.639L43.5607%2011.988L43.5636%2022.9168C42.7213%2021.7955%2041.658%2020.8498%2040.4383%2020.1441L40.4357%2011.988C40.4357%2010.6396%2039.411%209.53059%2038.0978%209.39723L37.8315%209.38379H7.62321C6.27486%209.38379%205.16585%2010.4085%205.03249%2011.7217L5.01904%2011.988V31.7796C5.01904%2033.128%206.04378%2034.237%207.35695%2034.3703L7.62321%2034.3838L26.21%2034.3864L26.468%2034.8081L26.7463%2035.2179L26.894%2035.4125L26.892%2037.5088H7.62321C4.57627%2037.5088%202.08487%2035.1302%201.9045%2032.1286L1.89404%2031.7796V11.988C1.89404%208.94101%204.27259%206.44961%207.2742%206.26924L7.62321%206.25879H37.8315ZM35.2287%2023.9584C32.3515%2023.9584%2030.019%2026.2908%2030.019%2029.168C30.019%2032.0453%2032.3515%2034.3777%2035.2287%2034.3777C38.1059%2034.3777%2040.4384%2032.0453%2040.4384%2029.168C40.4384%2026.2908%2038.1059%2023.9584%2035.2287%2023.9584ZM21.1649%2026.0417C22.0278%2026.0417%2022.7274%2026.7413%2022.7274%2027.6042C22.7274%2028.3952%2022.1396%2029.049%2021.3769%2029.1524L21.1649%2029.1667H11.7899C10.9269%2029.1667%2010.2274%2028.4671%2010.2274%2027.6042C10.2274%2026.8132%2010.8152%2026.1594%2011.5779%2026.056L11.7899%2026.0417H21.1649ZM33.6649%2014.5834C34.5278%2014.5834%2035.2274%2015.2829%2035.2274%2016.1459C35.2274%2016.9369%2034.6396%2017.5906%2033.8769%2017.6941L33.6649%2017.7084H11.7899C10.9269%2017.7084%2010.2274%2017.0088%2010.2274%2016.1459C10.2274%2015.3548%2010.8152%2014.7011%2011.5779%2014.5976L11.7899%2014.5834H33.6649Z&#39;%20fill=&#39;%232F6ECB&#39;/%3e%3c/svg%3e"></div><div class="offer-content flex flex-col gap-2"><h3 class="text-2xl font-bold">Certificate</h3><p class="text-secondry-gray-4">Earn a professional certificate that validates your skills and shows your readiness for the job market.</p></div></div></div></div><div class="offers-container h-full flex flex-col gap-7 rounded-xl "><h1 class="text-2xl font-[600] text-center rounded-lg bg-primary-yellow text-white py-4">For Business</h1><div class="offers relative w-full h-fit overflow-hidden flex flex-col gap-7 p-5 border border-primary-yellow rounded-2xl"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-yellow"></span><div class="h-fit flex flex-row items-center gap-3"><img loading="lazy" class="w-4" src="data:image/svg+xml,%3csvg%20width=&#39;14&#39;%20height=&#39;14&#39;%20viewBox=&#39;0%200%2014%2014&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cg%20clip-path=&#39;url(%23clip0_138_317)&#39;%3e%3cpath%20d=&#39;M7%200C3.14007%200%200%203.14024%200%207C0%2010.8598%203.14007%2014%207%2014C10.8599%2014%2014%2010.8598%2014%207C14%203.14024%2010.8599%200%207%200ZM10.2878%206.22073L7.03686%209.47163C6.68021%209.82827%206.10241%209.8283%205.74574%209.47163L3.86438%207.59027C3.50771%207.23376%203.50771%206.65569%203.86438%206.29915C4.22105%205.94248%204.79883%205.94248%205.1555%206.29915L6.3913%207.53482L8.99667%204.92956C9.35334%204.57289%209.93111%204.57289%2010.2878%204.92956C10.6445%205.28612%2010.6445%205.8642%2010.2878%206.22073Z&#39;%20fill=&#39;%23F8B500&#39;/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id=&#39;clip0_138_317&#39;%3e%3crect%20width=&#39;14&#39;%20height=&#39;14&#39;%20fill=&#39;white&#39;/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"><h3 class="font-medium text-xl">Data Analysis and Reporting</h3></div><div class="h-fit flex flex-row items-center gap-3"><img loading="lazy" class="w-4" src="data:image/svg+xml,%3csvg%20width=&#39;14&#39;%20height=&#39;14&#39;%20viewBox=&#39;0%200%2014%2014&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cg%20clip-path=&#39;url(%23clip0_138_317)&#39;%3e%3cpath%20d=&#39;M7%200C3.14007%200%200%203.14024%200%207C0%2010.8598%203.14007%2014%207%2014C10.8599%2014%2014%2010.8598%2014%207C14%203.14024%2010.8599%200%207%200ZM10.2878%206.22073L7.03686%209.47163C6.68021%209.82827%206.10241%209.8283%205.74574%209.47163L3.86438%207.59027C3.50771%207.23376%203.50771%206.65569%203.86438%206.29915C4.22105%205.94248%204.79883%205.94248%205.1555%206.29915L6.3913%207.53482L8.99667%204.92956C9.35334%204.57289%209.93111%204.57289%2010.2878%204.92956C10.6445%205.28612%2010.6445%205.8642%2010.2878%206.22073Z&#39;%20fill=&#39;%23F8B500&#39;/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id=&#39;clip0_138_317&#39;%3e%3crect%20width=&#39;14&#39;%20height=&#39;14&#39;%20fill=&#39;white&#39;/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"><h3 class="font-medium text-xl">Machine Learning Model Development</h3></div><div class="h-fit flex flex-row items-center gap-3"><img loading="lazy" class="w-4" src="data:image/svg+xml,%3csvg%20width=&#39;14&#39;%20height=&#39;14&#39;%20viewBox=&#39;0%200%2014%2014&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cg%20clip-path=&#39;url(%23clip0_138_317)&#39;%3e%3cpath%20d=&#39;M7%200C3.14007%200%200%203.14024%200%207C0%2010.8598%203.14007%2014%207%2014C10.8599%2014%2014%2010.8598%2014%207C14%203.14024%2010.8599%200%207%200ZM10.2878%206.22073L7.03686%209.47163C6.68021%209.82827%206.10241%209.8283%205.74574%209.47163L3.86438%207.59027C3.50771%207.23376%203.50771%206.65569%203.86438%206.29915C4.22105%205.94248%204.79883%205.94248%205.1555%206.29915L6.3913%207.53482L8.99667%204.92956C9.35334%204.57289%209.93111%204.57289%2010.2878%204.92956C10.6445%205.28612%2010.6445%205.8642%2010.2878%206.22073Z&#39;%20fill=&#39;%23F8B500&#39;/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id=&#39;clip0_138_317&#39;%3e%3crect%20width=&#39;14&#39;%20height=&#39;14&#39;%20fill=&#39;white&#39;/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"><h3 class="font-medium text-xl">Custom Dashboards (Power BI, Tableau)</h3></div><div class="h-fit flex flex-row items-center gap-3"><img loading="lazy" class="w-4" src="data:image/svg+xml,%3csvg%20width=&#39;14&#39;%20height=&#39;14&#39;%20viewBox=&#39;0%200%2014%2014&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cg%20clip-path=&#39;url(%23clip0_138_317)&#39;%3e%3cpath%20d=&#39;M7%200C3.14007%200%200%203.14024%200%207C0%2010.8598%203.14007%2014%207%2014C10.8599%2014%2014%2010.8598%2014%207C14%203.14024%2010.8599%200%207%200ZM10.2878%206.22073L7.03686%209.47163C6.68021%209.82827%206.10241%209.8283%205.74574%209.47163L3.86438%207.59027C3.50771%207.23376%203.50771%206.65569%203.86438%206.29915C4.22105%205.94248%204.79883%205.94248%205.1555%206.29915L6.3913%207.53482L8.99667%204.92956C9.35334%204.57289%209.93111%204.57289%2010.2878%204.92956C10.6445%205.28612%2010.6445%205.8642%2010.2878%206.22073Z&#39;%20fill=&#39;%23F8B500&#39;/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id=&#39;clip0_138_317&#39;%3e%3crect%20width=&#39;14&#39;%20height=&#39;14&#39;%20fill=&#39;white&#39;/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"><h3 class="font-medium text-xl">Full-Stack Web Development</h3></div><div class="h-fit flex flex-row items-center gap-3"><img loading="lazy" class="w-4" src="data:image/svg+xml,%3csvg%20width=&#39;14&#39;%20height=&#39;14&#39;%20viewBox=&#39;0%200%2014%2014&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cg%20clip-path=&#39;url(%23clip0_138_317)&#39;%3e%3cpath%20d=&#39;M7%200C3.14007%200%200%203.14024%200%207C0%2010.8598%203.14007%2014%207%2014C10.8599%2014%2014%2010.8598%2014%207C14%203.14024%2010.8599%200%207%200ZM10.2878%206.22073L7.03686%209.47163C6.68021%209.82827%206.10241%209.8283%205.74574%209.47163L3.86438%207.59027C3.50771%207.23376%203.50771%206.65569%203.86438%206.29915C4.22105%205.94248%204.79883%205.94248%205.1555%206.29915L6.3913%207.53482L8.99667%204.92956C9.35334%204.57289%209.93111%204.57289%2010.2878%204.92956C10.6445%205.28612%2010.6445%205.8642%2010.2878%206.22073Z&#39;%20fill=&#39;%23F8B500&#39;/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id=&#39;clip0_138_317&#39;%3e%3crect%20width=&#39;14&#39;%20height=&#39;14&#39;%20fill=&#39;white&#39;/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"><h3 class="font-medium text-xl">UI/UX Design and Prototyping</h3></div><div class="h-fit flex flex-row items-center gap-3"><img loading="lazy" class="w-4" src="data:image/svg+xml,%3csvg%20width=&#39;14&#39;%20height=&#39;14&#39;%20viewBox=&#39;0%200%2014%2014&#39;%20fill=&#39;none&#39;%20xmlns=&#39;http://www.w3.org/2000/svg&#39;%3e%3cg%20clip-path=&#39;url(%23clip0_138_317)&#39;%3e%3cpath%20d=&#39;M7%200C3.14007%200%200%203.14024%200%207C0%2010.8598%203.14007%2014%207%2014C10.8599%2014%2014%2010.8598%2014%207C14%203.14024%2010.8599%200%207%200ZM10.2878%206.22073L7.03686%209.47163C6.68021%209.82827%206.10241%209.8283%205.74574%209.47163L3.86438%207.59027C3.50771%207.23376%203.50771%206.65569%203.86438%206.29915C4.22105%205.94248%204.79883%205.94248%205.1555%206.29915L6.3913%207.53482L8.99667%204.92956C9.35334%204.57289%209.93111%204.57289%2010.2878%204.92956C10.6445%205.28612%2010.6445%205.8642%2010.2878%206.22073Z&#39;%20fill=&#39;%23F8B500&#39;/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id=&#39;clip0_138_317&#39;%3e%3crect%20width=&#39;14&#39;%20height=&#39;14&#39;%20fill=&#39;white&#39;/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"><h3 class="font-medium text-xl">Automation and Scraping Solutions</h3></div></div></div></div></section><section id="testimonials" class="w-screen box-border px-14 section-py text-primary-darkblue bg-secondry-gray-1 overflow-x-hidden"><div class="flex flex-col gap-5"><h2 class="text-6xl text-primary-darkblue font-[900]">What Learners Are Saying ?</h2></div><div class="slick-slider slick-initialized" dir="ltr"><button type="button" data-role="none" class="slick-arrow slick-prev slick-disabled" style="display: block;"> Previous</button><div class="slick-list"><div class="slick-track" style="width: 4750px; opacity: 1; transform: translate3d(0px, 0px, 0px);"><div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1" aria-hidden="false" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">I completed the 1-month Data Analytics Internship at Elevvo, covering all 4 levels. The program was exceptionally well-structured, remote, and self-paced—perfect for learners balancing other commitments.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_2-CFh7ICl3.svg"><div class="flex flex-col"><span>Tharun Konda</span><span class="text-secondry-gray-4 text-sm">Data Analytics</span></div></div></div></div></div><div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M12%2017L6%2020L7.5%2014L3%209L9.5%208.5L12%203L14.5%208.5L21%209L16.5%2014L18%2020L12%2017Z%27%20stroke=%27%232F6ECB%27%20stroke-width=%271.5%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">I truly appreciate the support, structure, and learning environment provided by the Elevvo team. Highly recommended for students and early professionals looking to grow their portfolio and gain practical exposure!</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_1-DuGSUde6.svg"><div class="flex flex-col"><span>Alishba Jawaid</span><span class="text-secondry-gray-4 text-sm">Front-End Web Development</span></div></div></div></div></div><div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">I wasn't just copying templates, I was thinking like a developer. The optional badge system and emphasis on GitHub and LinkedIn sharing also helped me build a portfolio and professional presence.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_8-DcKxSFZN.svg"><div class="flex flex-col"><span>Muhammad Mughees</span><span class="text-secondry-gray-4 text-sm">Front-End Web Development</span></div></div></div></div></div><div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">It was great intership i really gained a strong experince and my cv would be more stronger with these projects really it was a great chance for me to grow thanks for this opportunity.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_3-B_copUqM.svg"><div class="flex flex-col"><span>Alaa Mekawi</span><span class="text-secondry-gray-4 text-sm">Machine Learning</span></div></div></div></div></div><div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">Elevvo Pathways Internship, where I worked on 4 Machine Learning projects that helped me gain hands on experience in building, tuning, and evaluating real-world machine learning models.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_7-CGAQqtvp.svg"><div class="flex flex-col"><span>Muhammad Faizan</span><span class="text-secondry-gray-4 text-sm">Front-End Web Development</span></div></div></div></div></div><div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">I’ve found this learning resource to be incredibly helpful and easy to follow. The explanations are clear, and the content is well-structured for both beginners and more advanced learners.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_10-CItSS_Z7.svg"><div class="flex flex-col"><span>Rida Fatima</span><span class="text-secondry-gray-4 text-sm">Machine Learning</span></div></div></div></div></div><div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M12%2017L6%2020L7.5%2014L3%209L9.5%208.5L12%203L14.5%208.5L21%209L16.5%2014L18%2020L12%2017Z%27%20stroke=%27%232F6ECB%27%20stroke-width=%271.5%27%20stroke-linecap=%27round%27%20stroke-linejoin=%27round%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">Great platform for hands-on learning. Tasks were practical and support was helpful. Perfect for beginners in data science!</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_5-DyR2HQg9.svg"><div class="flex flex-col"><span>Madiha Rehan</span><span class="text-secondry-gray-4 text-sm">Data Analytics</span></div></div></div></div></div><div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">A well-structured internship that offers hands-on experience good ML tasks. Highly recommended for learners looking to build practical skills.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_9-DeLRpyyq.svg"><div class="flex flex-col"><span>Abd El-Rahman Ahmed</span><span class="text-secondry-gray-4 text-sm">Data Analytics</span></div></div></div></div></div><div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">I'm truly grateful to Elevvo for creating such a practical and beginner-friendly learning experience. The hands-on tasks, real-world projects, and guided challenges helped me build not just skills—but confidence.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_7-CGAQqtvp.svg"><div class="flex flex-col"><span>Misbah Irum</span><span class="text-secondry-gray-4 text-sm">Data Analytics</span></div></div></div></div></div><div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true" style="outline: none; width: 475px;"><div><div class="card relative w-auto h-[400px] grid grid-rows-[5%_70%_25%] items-start p-6 rounded-md bg-white shadow-lg cursor-pointer mt-0 hover:-mt-2 transition-all duration-400 ease-in-out"><img class="w-20 absolute top-2 right-4 opacity-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20fill=%27%23000000%27%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%20512%20512%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27M464%2032H336c-26.5%200-48%2021.5-48%2048v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48zm-288%200H48C21.5%2032%200%2053.5%200%2080v128c0%2026.5%2021.5%2048%2048%2048h80v64c0%2035.3-28.7%2064-64%2064h-8c-13.3%200-24%2010.7-24%2024v48c0%2013.3%2010.7%2024%2024%2024h8c88.4%200%20160-71.6%20160-160V80c0-26.5-21.5-48-48-48z%27/%3e%3c/svg%3e"><div><div class="stars flex flex-row gap-1"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"><img class="w-5" src="data:image/svg+xml,%3c?xml%20version=%271.0%27%20encoding=%27utf-8%27?%3e%3c!--%20Uploaded%20to:%20SVG%20Repo,%20www.svgrepo.com,%20Generator:%20SVG%20Repo%20Mixer%20Tools%20--%3e%3csvg%20width=%27800px%27%20height=%27800px%27%20viewBox=%270%200%2024%2024%27%20fill=%27none%27%20xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath%20d=%27m12%2017.328-5.403%203.286a.75.75%200%200%201-1.12-.813l1.456-6.155-4.796-4.123a.75.75%200%200%201%20.428-1.316l6.303-.517%202.44-5.835a.75.75%200%200%201%201.384%200l2.44%205.835%206.303.517a.75.75%200%200%201%20.427%201.316l-4.795%204.123%201.456%206.155a.75.75%200%200%201-1.12.813L12%2017.328z%27%20fill=%27%232F6ECB%27/%3e%3c/svg%3e"></div></div><div class="pt-4 pb-12"><p class="leading-7">Great internship at Elevvo Pathways. Learned practical frontend development skills. Worked on real-world projects with confidence.</p></div><div class="user flex flex-row items-center gap-4 pt-4 border-t border-secondry-gray-2"><img alt="John Doe" class="user-pic w-12" src="./Elevvo_files/avatar_2-CFh7ICl3.svg"><div class="flex flex-col"><span>Kashish Nankani</span><span class="text-secondry-gray-4 text-sm">Data Analytics</span></div></div></div></div></div></div></div><button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button><ul class="slick-dots" style="display: block;"><li class="slick-active"><button>1</button></li><li class=""><button>2</button></li><li class=""><button>3</button></li><li class=""><button>4</button></li><li class=""><button>5</button></li><li class=""><button>6</button></li><li class=""><button>7</button></li><li class=""><button>8</button></li></ul></div><div class="flex flex-row justify-end gap-3 mt-9 text-primary-darkblue"><button class="w-15 h-15 flex justify-center items-center bg-white border border-secondry-gray-3 rounded-full select-none cursor-pointer hover:text-primary-blue hover:border-primary-blue transition-all duration-300 ease-in-out"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"></path></svg></button><button class="w-15 h-15 flex justify-center items-center bg-white border border-secondry-gray-3 rounded-full select-none cursor-pointer hover:text-primary-blue hover:border-primary-blue transition-all duration-300 ease-in-out"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-right" class="svg-inline--fa fa-arrow-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></button></div></section><section class="banner-section relative py-22 section-px overflow-hidden bg-no-repeat bg-cover"><div class="overlay absolute top-0 right-0 bottom-0 left-0 bg-primary-yellow opacity-75 z-1"></div><div class="banner-content relative w-fit md:w-full h-full text-center flex flex-col justify-between items-center md:flex-row md:gap-4 z-3"><h1 class="text-3xl md:text-2xl lg:text-4xl font-light">Invest In Your Future –<span class="font-bold">With Real Experience</span></h1><a href="https://elevvo.tech/apply" class="mt-5 md:mt-0 w-full md:w-fit text-center py-2 px-9 text-lg font-regular rounded-full bg-primary-darkblue text-white border-2 border-transparent hover:bg-transparent hover:border-primary-darkblue hover:text-primary-darkblue transition-all duration-300 ease-in-out">Apply Now</a></div></section><section class="faq-section flex flex-col gap-10 section-px section-py rounded-4xl bg-secondry-gray-1"><div class="flex flex-col gap-5 items-start col-span-2"><h1 class="text-3xl text-secondry-gray-4 font-[500]">Any Questions ?</h1><h2 class="text-6xl text-primary-darkblue font-[900]">We Got You.</h2></div><div class="faqs flex flex-col lg:flex-row gap-4"><div class="faq-container flex flex-col gap-5"><h1 class="text-2xl font-[600] text-start">For Interns</h1><div class="question-card relative flex flex-col gap-4 p-7 bg-white border border-primary-blue rounded-xl overflow-hidden"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><h3 class="text-2xl font-medium">Can I Apply Even If I’m a Student With No Experience ?</h3><p class="text-secondry-gray-4">Elevvo welcomes students with no experience — our programs guide you step-by-step to gain practical, career-ready skills through real projects.</p></div><div class="question-card relative flex flex-col gap-4 p-7 bg-white border border-primary-blue rounded-xl overflow-hidden"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><h3 class="text-2xl font-medium">Do I Receive Any Feedback ?</h3><p class="text-secondry-gray-4">You receive structured feedback on your projects and earn a certificate that proves your skills and achievements.</p></div><div class="question-card relative flex flex-col gap-4 p-7 bg-white border border-primary-blue rounded-xl overflow-hidden"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-blue"></span><h3 class="text-2xl font-medium">Will I Get Educational Materials Or Only Tasks ?</h3><p class="text-secondry-gray-4">You'll receive clear educational materials along with tasks to apply what you learn in real scenarios.</p></div></div><div class="faq-container flex flex-col gap-5"><h1 class="text-2xl font-[600] text-start">For Business</h1><div class="question-card relative flex flex-col gap-4 p-7 bg-white border border-primary-yellow rounded-xl overflow-hidden"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-yellow"></span><h3 class="text-2xl font-medium">Do I have to commit for a long-term project?</h3><p class="text-secondry-gray-4">Elevvo offers flexible collaboration—whether it’s a one-time project or ongoing support, we adapt to your needs.</p></div><div class="question-card relative flex flex-col gap-4 p-7 bg-white border border-primary-yellow rounded-xl overflow-hidden"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-yellow"></span><h3 class="text-2xl font-medium">Will I work with experienced professionals ?</h3><p class="text-secondry-gray-4">Absolutely. Our core team handles every business solution with industry-grade quality and real-world expertise.</p></div><div class="question-card relative flex flex-col gap-4 p-7 bg-white border border-primary-yellow rounded-xl overflow-hidden"><span class="absolute top-0 right-0 bottom-0 left-0 w-full h-2 bg-primary-yellow"></span><h3 class="text-2xl font-medium">Is this suitable for startups or only big companies?</h3><p class="text-secondry-gray-4">We work with businesses of all sizes—from startups to enterprises—offering scalable, cost-effective tech solutions that deliver results.</p></div></div></div><a href="https://elevvo.tech/home#footer" class="flex flex-row items-center gap-2 font-bold text-primary-blue"><span>More Questions</span><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg></a></section></main><footer id="footer" class="relative section-px py-18 bg-primary-darkblue max-sm:text-center"><div class="footer-body flex flex-col gap-12 items-start md:flex-row md:gap-0 md:items-center"><div class="footer-info w-full flex flex-row justify-between min-md:items-start max-sm:flex-col max-sm:gap-7 md:basis-6/12 md:flex-col md:justify-start md:items-center md:gap-7 text-white"><div><a href="https://elevvo.tech/home"><img alt="Elevvo" class="w-70 max-sm:mx-auto" src="./Elevvo_files/footer_logo-NXbr_U0f.svg"></a></div><p>Email: elevvopaths@gmail.com<br>Address: Cairo, Egypt</p></div><div class="footer-contact relative w-full md:basis-6/12 flex flex-col gap-7 text-white"><h1 class="text-5xl font-medium">Keep in Touch</h1><div class="w-full py-2 flex flex-row items-center gap-2 text-white border-2 border-white rounded-full"><input placeholder="Enter Your Message" class="w-full pl-7 pr-3 text-white font-medium text-md sm:text-2xl rounded-full outline-none" type="text" value=""><button class="w-fit h-fit mr-[6px] py-[10px] px-15 bg-white text-primary-darkblue font-extrabold text-lg sm:text-2xl rounded-full hover:bg-primary-yellow hover:text-white transition-all duration-300 ease-in-out cursor-pointer select-none">Send</button></div></div></div><div class="copyright w-full mt-20 pt-12 flex flex-row justify-between items-center border-t border-secondry-gray-4 max-sm:flex-col max-sm:gap-5"><p class="text-secondry-gray-4">©2025 Elevvo, All Rights Reserved</p><div class="footer-icons flex flex-row gap-4"><a href="https://www.linkedin.com/company/elevvopaths" target="_blank" class="social-icon w-12 h-12 flex justify-center items-center text-white text-2xl border border-white rounded-full hover:bg-white hover:text-primary-darkblue transition-all duration-300 ease-in-out"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in" class="svg-inline--fa fa-linkedin-in " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg></a><a href="https://whatsapp.com/channel/0029Vb683kBKGGGQgg7Ag41n" target="_blank" class="social-icon w-12 h-12 flex justify-center items-center text-white text-2xl border border-white rounded-full hover:bg-white hover:text-primary-darkblue transition-all duration-300 ease-in-out"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg></a><a href="https://www.facebook.com/profile.php?id=61577328042442" target="_blank" class="social-icon w-12 h-12 flex justify-center items-center text-white text-2xl border border-white rounded-full hover:bg-white hover:text-primary-darkblue transition-all duration-300 ease-in-out"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" class="svg-inline--fa fa-facebook-f " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"></path></svg></a><a href="https://github.com/elevvopaths" target="_blank" class="social-icon w-12 h-12 flex justify-center items-center text-white text-2xl border border-white rounded-full hover:bg-white hover:text-primary-darkblue transition-all duration-300 ease-in-out"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg></a></div></div></footer></div></div></div>
+  
+
+</body></html>
